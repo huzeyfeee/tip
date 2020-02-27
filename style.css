@@ -1,0 +1,81 @@
+body {
+    background-color:#DFEA87;
+}
+
+.container {
+    width: 30%;
+    max-width: 600px;
+    height: 500px;
+    border-style: solid;
+    border-color: #707E20 ;
+    border-radius: 15px;
+    background-color: #5EC29E ;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.container h1 {
+   font: 600 30px 'Ubuntu', ubuntu sans-serif;
+
+}
+#baslik {
+   text-align: center;
+    padding: 20px 20px;
+}
+input {
+    width: 60%;
+    height: 25px;
+    margin-left:20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font: 14px 'Ubuntu', sans-serif ;
+
+}
+label {
+    margin-left: 20%;
+    font: 16px 'Ubuntu', ubuntu sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#service {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+    height: 35px;
+    margin-left: 20%;
+    font: 500 14px 'Ubuntu', ubuntu sans-serif;
+
+}
+#button {
+    text-align: center;
+    margin-top: 20px;
+
+}
+#calculate {
+    font: 600 26px 'Ubuntu', ubuntu sans-serif;
+    height: 50px;
+
+
+
+}
+#toplamBahsis {
+    text-align: center;
+    font:600 20px 'Ubuntu', sans-serif ;
+    color: indigo;
+    margin-top: 5px;
+}
+#toplamBahsis:before {
+    content: "Toplam Bahşiş";
+    display: block;
+
+
+}
+#toplamBahsis sup {
+    font-size: 20px;
+    margin-top: -18px;
+}
+#toplamBahsis small {
+    display: block;
+}
